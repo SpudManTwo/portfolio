@@ -45,6 +45,9 @@ import Project17Image3 from '../images/project17/image3.png';
 import Project18Image1 from '../images/project18/image1.png';
 import Project18Image2 from '../images/project18/image2.png';
 import Project18Image3 from '../images/project18/image3.png';
+import Project19Image1 from '../images/project19/image1.png';
+import Project19Image2 from '../images/project19/image2.png';
+import Project19Image3 from '../images/project19/image3.png';
 
 export const projectCategoryData = [
 	'Robert Half',
@@ -1317,7 +1320,7 @@ export const projectsData = [
 			jp: '2018年8月 - 2019年11月'
 		},
 		tags: ['UI', 'Front-End', 'Back-End', 'Full-Stack'],
-		img: Project13Image2,
+		img: Project14Image1,
 		ProjectImages: [
 			{
 				id: 1,
@@ -1426,7 +1429,7 @@ export const projectsData = [
 			jp: '2018年8月 - 2019年11月'
 		},
 		tags: ['UI', 'Front-End', 'Back-End', 'Full-Stack'],
-		img: Project14Image1,
+		img: Project13Image2,
 		ProjectImages: [
 			{
 				id: 1,
@@ -1764,4 +1767,89 @@ export const projectsData = [
 		},
 		RelatedProjects: [8, 10, 3],
 	},
+	{
+		id: 18,
+		title:
+		{
+			en: 'School Tax Software',
+			jp: '学校税ソフトウェア'
+		},
+		category: 'Robert Half',
+		date:
+		{
+			en: 'October 2021 - November 2021',
+			jp: '2021年10月 - 2021年11月'
+		},
+		tags: ['UI', 'Front-End', 'Back-End', 'Full-Stack'],
+		img: Project19Image2,
+		ProjectImages: [
+			{
+				id: 1,
+				title: 'School',
+				img: Project19Image1,
+			},
+			{
+				id: 2,
+				title: 'Method Automation',
+				img: Project19Image2,
+			},
+			{
+				id: 3,
+				title: 'Tax',
+				img: Project19Image3,
+			},
+		],
+		ProjectInfo: {
+			ClientName: 'Method Automation',
+			CompanyInfo: [
+				{
+					id: 1,
+					title: 'Client',
+					details: 'Method Automation',
+				},
+				{
+					id: 2,
+					title: 'Roles',
+					details: 'Senior Software Engineer',
+				}
+			],
+			Technologies: [
+				{
+					techs: [
+						".NET 5",
+						"C#",
+						"ASP.NET",
+						"Telerik",
+						"Entity Framework",
+						"Datatables.net",
+						"SQL Server",
+						"SQL",
+						"Javascript",
+						"jQuery",
+						"Bootstrap",
+						"AJAX"
+					],
+				},
+			],
+			ProjectDetails:
+			{
+				en: "Platform that allows school districts to automate the process of validating taxpayers within their districts and generate 1329 forms for the state to receive educational funding.",
+				jp: "学区が学区内の納税者の検証プロセスを自動化し、州が教育資金を受け取るための 1329 フォームを生成できるプラットフォーム。",
+			},
+			ProjectHighlights:
+			{
+				en: [
+					"Worked on a small team of 2-3 people to help finish the application during development crunch",
+					"Leveraged Telerik controls for uploading files and displaying PDFs.",
+					"Provided expert knowledge and feedback to solve longstanding issues the team had previously been unable to figure out"
+					],
+				jp: [
+					"開発の混雑時にアプリケーションの完成を支援するために 2 ～ 3 人の小さなチームで働きました",
+					"ファイルのアップロードと PDF の表示に Telerik コントロールを活用しました。",
+					"チームがこれまで解決できなかった長年の問題を解決するために、専門知識とフィードバックを提供しました"
+					]
+			}
+		},
+		RelatedProjects: [14, 3, 11],
+	}
 ];

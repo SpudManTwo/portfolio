@@ -7,7 +7,7 @@ const AboutCounter = () => {
 
 	useCountUp({ ref: 'experienceCounter', end: Math.floor((Date.now() - (new Date("2018-08-01"))) / 31536000000), duration: 2 });
 	useCountUp({ ref: 'clients', end: 16, duration: 2 });
-	useCountUp({ ref: 'skillCounter', end: 120, duration: 2 });
+	useCountUp({ ref: 'skillCounter', end: 130, duration: 2 });
 	useCountUp({ ref: 'solutionsCounter', end: 30, duration: 2 });
 
 

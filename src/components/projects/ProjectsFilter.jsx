@@ -1,14 +1,6 @@
 import { useTranslation } from 'react-i18next';
 
-const selectOptions = [
-	'Robert Half',
-	'Fi360',
-	'Independent',
-	'Kennametal',
-	'Sol Press',
-];
-
-const ProjectsFilter = ({ setSelectProject }) => 
+const ProjectsFilter = ({ categories, setSelectProject }) => 
 {
 	const { t } = useTranslation();
 	return (
@@ -37,7 +29,8 @@ const ProjectsFilter = ({ setSelectProject }) =>
 				{t('All Projects')}
 			</option>
 
-			{selectOptions.map((option) => (
+			{console.log(categories[0])}
+			{categories[0].map((option) => (
 				<option className="text-normal sm:text-md" key={option}>
 					{option}
 				</option>

@@ -358,7 +358,7 @@ export const aboutMeTimelineData = [
 
 export const aboutMeSkillData =
 {
-	frontendSkills: ["Vue.js", "Angular",  "Angular.js", "React", "JavaScript", "Razor", "Blazor", "ASP.NET MVC", "Telerik", "jQuery", "Bootstrap", "TailwindCSS", "Material Design Lite", "OAuth 2", "JSON", "HTML", "CSS", "XML", "Rest", "Webpack", "Typescript", "SSL", "WebAssembly", "Svelte", "Firebase", "Babel"],
+	frontendSkills: ["Vue.js", "Angular",  "Angular.js", "React", "JavaScript", "Razor", "Blazor", "ASP.NET MVC", "Telerik", "jQuery", "Bootstrap", "TailwindCSS", "Material Design Lite", "OAuth 2", "JSON", "HTML", "CSS", "XML", "Rest", "Webpack", "Typescript", "SSL", "WebAssembly", "Svelte", "Firebase", "Babel", "DataTables", "AJAX"],
 	backendSkills: ["C#", ".NET 5", ".NET 6", "Java", "Node.Js", "Python", "C++", "Ruby", ".NET Framework", ".NET Core", "Identity Framework", "Docker", "Flask", "Automapper", "Godot", "Jasmine", "TJS", "Matlab", "C", "MassTransit", "Akka", "GrayLog", "NLog", "dotCover", "Hangfire", "Scala", "Apache Ant", "ServiceStack", "XSLT", "F#", "Log4Net", "TopShelf", "NServiceBus", "PDFSharp", "EvoPDF", "iTextSharp", "Identity Server"],
 	cloudSkills: [ "Amazon AWS", "Microsoft Azure", "Azure WebHooks", "Azure Functions", "Azure CosmosDB", "Azure Active Directory", "AWS Cognito", "AWS SQS", "Azure Service Bus", "Azure Data Lakes", "Twilio", "SendGrid", "Mailgun", "Azure Web Services", "AWS S3", "Azure Virtual Machines", "AWS EC2", "AWS SNS", "AWS RDB", "Okta", "Perforce", "PingIdentity", "Azure Blob Storage", 'Microsoft Sharepoint'],
 	databaseSkills: ["Azure CosmosDB Change Feed Processing", "Redis", "Entity Framework Core", "Entity Framework", "SQL Server", "T-SQL", "Oracle PL/SQL", "NoSQL", "MongoDB", "Couchbase", "Dapper", "BSON"],
