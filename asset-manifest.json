@@ -1,12 +1,12 @@
 {
   "files": {
-    "static/js/0.c1a03da0.chunk.js": "/portfolio/static/js/0.c1a03da0.chunk.js",
-    "static/js/0.c1a03da0.chunk.js.map": "/portfolio/static/js/0.c1a03da0.chunk.js.map",
+    "static/js/0.e0a94b37.chunk.js": "/portfolio/static/js/0.e0a94b37.chunk.js",
+    "static/js/0.e0a94b37.chunk.js.map": "/portfolio/static/js/0.e0a94b37.chunk.js.map",
     "main.css": "/portfolio/static/css/main.da63f137.chunk.css",
     "main.js": "/portfolio/static/js/main.0406d563.chunk.js",
     "main.js.map": "/portfolio/static/js/main.0406d563.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.add6e1a2.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.add6e1a2.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.4337cde2.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.4337cde2.js.map",
     "static/js/3.56fcbf90.chunk.js": "/portfolio/static/js/3.56fcbf90.chunk.js",
     "static/js/3.56fcbf90.chunk.js.map": "/portfolio/static/js/3.56fcbf90.chunk.js.map",
     "static/js/4.e5bc62ac.chunk.js": "/portfolio/static/js/4.e5bc62ac.chunk.js",
@@ -17,8 +17,8 @@
     "static/js/6.81124259.chunk.js.map": "/portfolio/static/js/6.81124259.chunk.js.map",
     "static/js/7.7506f9a2.chunk.js": "/portfolio/static/js/7.7506f9a2.chunk.js",
     "static/js/7.7506f9a2.chunk.js.map": "/portfolio/static/js/7.7506f9a2.chunk.js.map",
-    "static/js/8.21ed1844.chunk.js": "/portfolio/static/js/8.21ed1844.chunk.js",
-    "static/js/8.21ed1844.chunk.js.map": "/portfolio/static/js/8.21ed1844.chunk.js.map",
+    "static/js/8.b6af1247.chunk.js": "/portfolio/static/js/8.b6af1247.chunk.js",
+    "static/js/8.b6af1247.chunk.js.map": "/portfolio/static/js/8.b6af1247.chunk.js.map",
     "static/js/9.2f4d1bdb.chunk.js": "/portfolio/static/js/9.2f4d1bdb.chunk.js",
     "static/js/9.2f4d1bdb.chunk.js.map": "/portfolio/static/js/9.2f4d1bdb.chunk.js.map",
     "static/js/10.414a32e5.chunk.js": "/portfolio/static/js/10.414a32e5.chunk.js",
@@ -84,7 +84,7 @@
     "static/media/tux.cc9a8e92.svg": "/portfolio/static/media/tux.cc9a8e92.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.add6e1a2.js",
+    "static/js/runtime-main.4337cde2.js",
     "static/js/3.56fcbf90.chunk.js",
     "static/css/main.da63f137.chunk.css",
     "static/js/main.0406d563.chunk.js"
