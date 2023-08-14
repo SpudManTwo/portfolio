@@ -12,7 +12,7 @@ const ProjectRelatedProjects = () => {
 				{t('Related Projects')}
 			</p>
 
-			<div className="grid grid-cols-1 sm:grid-cols-4 gap-10">
+			<div className="grid grid-cols-1 sm:grid-cols-3 gap-10">
 				{spotlightProjectData.RelatedProjects.map((relatedProjectId) => {
 					return (
 						<ProjectSpotlight

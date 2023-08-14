@@ -2,9 +2,12 @@ import { FiArrowDownCircle } from 'react-icons/fi';
 import Tux from '../../images/tux.svg';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import resumeEN from '../../files/en-resume.pdf'
+import resumeJP from '../../files/jp-resume.pdf'
 
 const AppBanner = () => {
 	const { t } = useTranslation();
+	const { i18n } = useTranslation();
 
 	return (
 		<motion.section
@@ -50,7 +53,7 @@ const AppBanner = () => {
 				>
 					<a
 						download={t('resume.pdf')}
-						href={`/files/${t('resume.pdf')}`}
+						href={(i18n.language === 'en' ? resumeEN : resumeJP)}
 						className="font-general-medium flex justify-center items-center w-64 sm:w-64 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
 						aria-label={t("Download Resume")}
 					>

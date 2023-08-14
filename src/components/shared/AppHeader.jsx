@@ -8,6 +8,7 @@ import logoDark from '../../images/logo-dark.png';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
+
 const AppHeader = () => {
 	const [showMenu, setShowMenu] = useState(false);
 	const [activeTheme, setTheme] = useThemeSwitcher();
@@ -37,7 +38,7 @@ const AppHeader = () => {
 				{/* Header menu links and small screen hamburger menu */}
 				<div className="flex justify-between items-center px-4 sm:px-0">
 					<div>
-						<Link to="/">
+						<Link to="/portfolio">
 							{activeTheme === 'dark' ? (
 								<img
 									src={logoDark}
@@ -112,21 +113,21 @@ const AppHeader = () => {
 					}
 				>
 					<Link
-						to="/projects"
+						to="portfolio/projects"
 						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
 						aria-label="Projects"
 					>
 						{t('Projects')}
 					</Link>
 					<Link
-						to="/about"
+						to="portfolio/about"
 						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
 						aria-label="About Me"
 					>
 						{t('About Me')}
 					</Link>
 					<Link
-						to="/contact"
+						to="portfolio/contact"
 						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
 						aria-label="Contact"
 					>
@@ -137,21 +138,21 @@ const AppHeader = () => {
 				{/* Header links large screen */}
 				<div className="font-general-medium hidden m-0 sm:ml-4 mt-5 sm:mt-3 sm:flex p-5 sm:p-0 justify-center items-center shadow-lg sm:shadow-none">
 					<Link
-						to="/projects"
+						to="portfolio/projects"
 						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
 						aria-label="Projects"
 					>
 						{t('Projects')}
 					</Link>
 					<Link
-						to="/about"
+						to="portfolio/about"
 						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
 						aria-label="About Me"
 					>
 						{t('About Me')}
 					</Link>
 					<Link
-						to="/contact"
+						to="portfolio/contact"
 						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
 						aria-label="Contact"
 					>
@@ -162,9 +163,9 @@ const AppHeader = () => {
 				{/* Header right section buttons */}
 				<div className="hidden sm:flex justify-between items-center flex-col md:flex-row">
 					{activeTheme === 'dark' ? (
-							<span className='text-ternary-dark dark:text-ternary-light text-xl'>{t('Language')}</span>
+							<span className='text-ternary-dark dark:text-ternary-light text-xl' onClick={toggleLanguage}>{t('Language')}</span>
 						) : (
-							<span className='text-gray-200 text-xl'>{t('Language')}</span>
+							<span className='text-gray-200 text-xl' onClick={toggleLanguage}>{t('Language')}</span>
 						)}<span></span>
 					{/* Lang switcher large screen */}
 					<div

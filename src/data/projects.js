@@ -147,7 +147,7 @@ export const projectsData = [
 					]
 			}
 		},
-		RelatedProjects: [1],
+		RelatedProjects: [ 1, 3, 11],
 	},
 	{
 		id: 1,
@@ -250,7 +250,7 @@ export const projectsData = [
 					]
 			}
 		},
-		RelatedProjects: [0,3],
+		RelatedProjects: [0, 3, 11],
 	},
 	{
 		id: 2,
@@ -339,7 +339,7 @@ export const projectsData = [
 					]
 			}
 		},
-		RelatedProjects: [],
+		RelatedProjects: [7, 10, 5],
 	},
 	{
 		id: 3,
@@ -444,7 +444,7 @@ export const projectsData = [
 					]
 			}
 		},
-		RelatedProjects: [0,1],
+		RelatedProjects: [1, 0, 11],
 	},
 	{
 		id: 4,
@@ -537,7 +537,7 @@ export const projectsData = [
 					]
 			}
 		},
-		RelatedProjects: [0,1],
+		RelatedProjects: [9, 6, 2],
 	},
 	{
 		id: 5,
@@ -629,7 +629,7 @@ export const projectsData = [
 					]
 			}
 		},
-		RelatedProjects: [6],
+		RelatedProjects: [4, 6, 11],
 	},
 	{
 		id: 6,
@@ -719,7 +719,7 @@ export const projectsData = [
 					]
 			}
 		},
-		RelatedProjects: [5],
+		RelatedProjects: [9, 5, 4],
 	},
 	{
 		id: 7,
@@ -810,7 +810,7 @@ export const projectsData = [
 					]
 			}
 		},
-		RelatedProjects: [0,1],
+		RelatedProjects: [0, 2, 10],
 	},
 	{
 		id: 8,
@@ -897,7 +897,7 @@ export const projectsData = [
 					]
 			}
 		},
-		RelatedProjects: [0,1],
+		RelatedProjects: [1, 4, 14],
 	},
 	{
 		id: 9,
@@ -989,7 +989,7 @@ export const projectsData = [
 					]
 			}
 		},
-		RelatedProjects: [0,1],
+		RelatedProjects: [4, 2, 6],
 	},
 	{
 		id: 10,
@@ -1075,7 +1075,7 @@ export const projectsData = [
 					]
 			}
 		},
-		RelatedProjects: [0,1],
+		RelatedProjects: [0, 3, 2],
 	},
 	{
 		id: 11,
@@ -1188,7 +1188,7 @@ export const projectsData = [
 					]
 			}
 		},
-		RelatedProjects: [0,1],
+		RelatedProjects: [12, 1, 13],
 	},
 	{
 		id: 12,
@@ -1301,7 +1301,7 @@ export const projectsData = [
 					]
 			}
 		},
-		RelatedProjects: [0,1],
+		RelatedProjects: [14, 13, 11],
 	},
 	{
 		id: 13,
@@ -1410,7 +1410,7 @@ export const projectsData = [
 					]
 			}
 		},
-		RelatedProjects: [0,1],
+		RelatedProjects: [14, 12, 0],
 	},
 	{
 		id: 14,
@@ -1519,7 +1519,7 @@ export const projectsData = [
 					]
 			}
 		},
-		RelatedProjects: [0,1],
+		RelatedProjects: [1, 3, 11],
 	},
 	{
 		id: 15,
@@ -1605,7 +1605,7 @@ export const projectsData = [
 					]
 			}
 		},
-		RelatedProjects: [0,1],
+		RelatedProjects: [8, 16, 4],
 	},
 	{
 		id: 16,
@@ -1683,7 +1683,7 @@ export const projectsData = [
 					]
 			}
 		},
-		RelatedProjects: [0,1],
+		RelatedProjects: [5, 15, 6],
 	},
 	{
 		id: 17,
@@ -1762,6 +1762,6 @@ export const projectsData = [
 					]
 			}
 		},
-		RelatedProjects: [0,1],
+		RelatedProjects: [8, 10, 3],
 	},
 ];

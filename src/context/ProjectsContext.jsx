@@ -14,7 +14,7 @@ export const ProjectsProvider = (props) => {
 	const [spotlightProject, setSpotlightProject] = useState(localStorage.spotlightProject);
 	
 	// Get Spotlight Project Data
-	const spotlightProjectData = projects.find(project => project.id === spotlightProject);
+	const spotlightProjectData = projects.find(project => project.id == spotlightProject);
 
 	// Search projects by project title
 	const searchProjectsByTitle = projects.filter((item) => {

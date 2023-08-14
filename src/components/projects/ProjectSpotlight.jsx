@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
-const ProjectSpotlight = ({ title, client, image, currentSpotlight, setSpotlightProject, id}) => {
+const ProjectSpotlight = ({ title, client, image, setSpotlightProject, id}) => {
 
 	const { i18n } = useTranslation();
 
@@ -16,10 +16,10 @@ const ProjectSpotlight = ({ title, client, image, currentSpotlight, setSpotlight
 				delay: 0.15,
 			}}
 		>
-			<Link to="/projects/single-project" aria-label="Spotlight Project" onClick={() => 
+			<Link to="/portfolio/projects/single-project" aria-label="Spotlight Project" onClick={() => 
 				{ 
 					localStorage.setItem('spotlightProject', id);
-					if(currentSpotlight !== id)
+					if (window.location.href.includes('single-project'))
 					{
 						setSpotlightProject(id);
 					}
