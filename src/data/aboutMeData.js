@@ -351,6 +351,38 @@ export const aboutMeTimelineData = [
 						name_jp: "本プロジェクトポートフォリオサイト"
 					}
 				]
+			},
+			{
+				month: "September",
+				projects: [
+					{
+						name_en: "Union Member App",
+						name_jp: "組合員アプリ"
+					}
+				]
+			},
+			{
+				month: "November",
+				projects: [
+					{
+						name_en: "Prescription Management Software",
+						name_jp: "処方箋管理ソフトウェア"
+					}
+				]
+			}
+		]
+	},
+	{
+		year: 2024,
+		months: [
+			{
+				month: "January",
+				projects: [
+					{
+						name_en: "Credit Union Software",
+						name_jp: "信用組合ソフトウェア"
+					}
+				]
 			}
 		]
 	}
@@ -358,11 +390,11 @@ export const aboutMeTimelineData = [
 
 export const aboutMeSkillData =
 {
-	frontendSkills: ["Vue.js", "Angular",  "Angular.js", "React", "JavaScript", "Razor", "Blazor", "ASP.NET MVC", "Telerik", "jQuery", "Bootstrap", "TailwindCSS", "Material Design Lite", "OAuth 2", "JSON", "HTML", "CSS", "XML", "Rest", "Webpack", "Typescript", "SSL", "WebAssembly", "Svelte", "Firebase", "Babel", "DataTables", "AJAX"],
-	backendSkills: ["C#", ".NET 5", ".NET 6", "Java", "Node.Js", "Python", "C++", "Ruby", ".NET Framework", ".NET Core", "Identity Framework", "Docker", "Flask", "Automapper", "Godot", "Jasmine", "TJS", "Matlab", "C", "MassTransit", "Akka", "GrayLog", "NLog", "dotCover", "Hangfire", "Scala", "Apache Ant", "ServiceStack", "XSLT", "F#", "Log4Net", "TopShelf", "NServiceBus", "PDFSharp", "EvoPDF", "iTextSharp", "Identity Server"],
-	cloudSkills: [ "Amazon AWS", "Microsoft Azure", "Azure WebHooks", "Azure Functions", "Azure CosmosDB", "Azure Active Directory", "AWS Cognito", "AWS SQS", "Azure Service Bus", "Azure Data Lakes", "Twilio", "SendGrid", "Mailgun", "Azure Web Services", "AWS S3", "Azure Virtual Machines", "AWS EC2", "AWS SNS", "AWS RDB", "Okta", "Perforce", "PingIdentity", "Azure Blob Storage", 'Microsoft Sharepoint'],
+	frontendSkills: ["Vue.js", "Angular",  "Angular.js", "React", "JavaScript", "Razor", "Blazor", "ASP.NET MVC", "Telerik", "jQuery", "Bootstrap", "TailwindCSS", "Material Design Lite", "OAuth 2", "JSON", "HTML", "CSS", "XML", "Rest", "Webpack", "Typescript", "SSL", "WebAssembly", "Svelte", "Firebase", "Babel", "DataTables", "AJAX", "MUD Blazor", ".NET Maui"],
+	backendSkills: ["C#", ".NET 5", ".NET 6", ".NET 7", ".NET 8", "Java", "Node.Js", "Python", "C++", "Ruby", ".NET Framework", ".NET Core", "Identity Framework", "Docker", "Flask", "Automapper", "Godot", "Jasmine", "TJS", "Matlab", "C", "MassTransit", "Akka", "GrayLog", "NLog", "dotCover", "Hangfire", "Scala", "Apache Ant", "ServiceStack", "XSLT", "F#", "Log4Net", "TopShelf", "NServiceBus", "PDFSharp", "EvoPDF", "iTextSharp", "Identity Server", "Serilog", "Finbuckle"],
+	cloudSkills: [ "Amazon AWS", "Microsoft Azure", "Azure WebHooks", "Azure Functions", "Azure Key Vault", "Azure CosmosDB", "Azure Active Directory", "AWS Cognito", "AWS SQS", "Azure Service Bus", "Azure Data Lakes", "Twilio", "SendGrid", "Mailgun", "Azure Web Services", "AWS S3", "Azure Virtual Machines", "AWS EC2", "AWS SNS", "AWS RDB", "Okta", "Perforce", "PingIdentity", "Azure Blob Storage", 'Microsoft Sharepoint'],
 	databaseSkills: ["Azure CosmosDB Change Feed Processing", "Redis", "Entity Framework Core", "Entity Framework", "SQL Server", "T-SQL", "Oracle PL/SQL", "NoSQL", "MongoDB", "Couchbase", "Dapper", "BSON"],
-	other: ["Nuget", "NPM", "Yarn", "Git", "VSTS/TFS", "xUnit", "nUnit", "bUnit", "Selenium", "RabbitMq", "Moq", "Azure DevOps", "Yaml", "Linux", "Design Theory", "Postman", "Confluence", "Monday.com", "Jira", "Agile", "Scrum", "Waterfall", "Microservices", "State Machines", "Monolith APIs", "FastAPI", "Resharper", "SSMS", "VSCode", "Visual Studio", "Resharper", "NewRelic Agent", "BitBucket"]
+	other: ["Nuget", "StyleCop", "NPM", "Yarn", "Git", "VSTS/TFS", "xUnit", "nUnit", "bUnit", "Selenium", "RabbitMq", "Moq", "Azure DevOps", "Yaml", "Linux", "Design Theory", "Postman", "Confluence", "Monday.com", "Jira", "Agile", "Scrum", "Waterfall", "Microservices", "State Machines", "Monolith APIs", "FastAPI", "Resharper", "SSMS", "VSCode", "Visual Studio", "Resharper", "NewRelic Agent", "BitBucket"]
 }
 
 export const aboutMeClientData = [

@@ -48,13 +48,25 @@ import Project18Image3 from '../images/project18/image3.png';
 import Project19Image1 from '../images/project19/image1.png';
 import Project19Image2 from '../images/project19/image2.png';
 import Project19Image3 from '../images/project19/image3.png';
+import Project20Image1 from '../images/project20/image1.png';
+import Project20Image2 from '../images/project20/image2.png';
+import Project20Image3 from '../images/project20/image3.png';
+import Project21Image1 from '../images/project21/image1.png';
+import Project21Image2 from '../images/project21/image2.png';
+import Project21Image3 from '../images/project21/image3.png';
+import Project22Image1 from '../images/project22/image1.png';
+import Project22Image2 from '../images/project22/image2.png';
+import Project22Image3 from '../images/project22/image3.png';
+
+
 
 export const projectCategoryData = [
 	'Robert Half',
 	'Fi360',
 	'Independent',
 	'Kennametal',
-	'Sol Press'
+	'Sol Press',
+	'Vizo Financial'
 ];
 
 export const projectsData = [
@@ -1851,5 +1863,266 @@ export const projectsData = [
 			}
 		},
 		RelatedProjects: [14, 3, 11],
+	},
+	{
+		id: 19,
+		title:
+		{
+			en: 'Union Member App',
+			jp: '組合員アプリ'
+		},
+		category: 'Independent',
+		date:
+		{
+			en: 'September 2023 - December 2023',
+			jp: '2023年9月 - 2023年12月'
+		},
+		tags: ['UI', 'Front-End', 'Back-End', 'Full-Stack', 'Mobile App'],
+		img: Project20Image1,
+		ProjectImages: [
+			{
+				id: 1,
+				title: 'Union Picture',
+				img: Project20Image1,
+			},
+			{
+				id: 2,
+				title: 'Smart Phone',
+				img: Project20Image2,
+			},
+			{
+				id: 3,
+				title: 'Cadensoft',
+				img: Project20Image3,
+			},
+		],
+		ProjectInfo: {
+			ClientName: 'SMART Union',
+			CompanyInfo: [
+				{
+					id: 1,
+					title: 'Client',
+					details: 'SMART Union',
+				},
+				{
+					id: 2,
+					title: 'Roles',
+					details: 'Senior Software Engineer/Architect',
+				}
+			],
+			Technologies: [
+				{
+					techs: [
+						".NET 7",
+						"C#",
+						"ASP.NET",
+						"Telerik",
+						"Entity Framework",
+						"MUD Blazor",
+						"Polly",
+						"Blazicons",
+						"Javascript",
+						"jQuery",
+						"AJAX"
+					],
+				},
+			],
+			ProjectDetails:
+			{
+				en: "Mobile App Platform for Union Members and representatives to access various techincal parts of their membership such as their union card, job openings, etc.",
+				jp: "組合員と代表者が組合カードや求人情報など、組合員のさまざまな技術的な部分にアクセスするためのモバイル アプリ プラットフォーム。",
+			},
+			ProjectHighlights:
+			{
+				en: [
+					"Worked on a team of 2 to develop a multi-platform app for both iOS and Android with native functionality",
+					"Leveraged various component libraries and Blazor Maui to handle compatibility and displays",
+					"Ensured the app was uniform and properly displayed, regardless of personal device choice"
+					],
+				jp: [
+					"2 人のチームで、ネイティブ機能を備えた iOS と Android の両方のマルチプラットフォーム アプリを開発しました。",
+					"さまざまなコンポーネント ライブラリと Blazor Maui を利用して互換性と表示を処理",
+					"個人のデバイスの選択に関係なく、アプリが均一で適切に表示されるようにしました"
+					]
+			}
+		},
+		RelatedProjects: [2, 4, 7],
+	},
+	{
+		id: 20,
+		title:
+		{
+			en: 'Prescription Management Software',
+			jp: '処方箋管理ソフトウェア'
+		},
+		category: 'Independent',
+		date:
+		{
+			en: 'November 2023 - January 2024',
+			jp: '2023年11月 - 2024年1月'
+		},
+		tags: ['UI', 'Front-End', 'Back-End', 'Full-Stack'],
+		img: Project21Image2,
+		ProjectImages: [
+			{
+				id: 1,
+				title: 'Prescriptions',
+				img: Project21Image1,
+			},
+			{
+				id: 2,
+				title: 'ElectRx',
+				img: Project21Image2,
+			},
+			{
+				id: 3,
+				title: 'Website',
+				img: Project21Image3,
+			},
+		],
+		ProjectInfo: {
+			ClientName: 'ElectRx',
+			CompanyInfo: [
+				{
+					id: 1,
+					title: 'Client',
+					details: 'ElectRx',
+				},
+				{
+					id: 2,
+					title: 'Roles',
+					details: 'Senior Software Engineer/Architect',
+				}
+			],
+			Technologies: [
+				{
+					techs: [
+						".NET 7",
+						"C#",
+						"HangFire",
+						"Azure Key Vault",
+						"StyleCop",
+						"Serilog",
+						"Dapper",
+						"FinBuckle",
+						"SQL",
+						"xUnit",
+						"ASP.NET",
+						"Entity Framework",
+						"Javascript",
+						"jQuery",
+						"AJAX"
+					],
+				},
+			],
+			ProjectDetails:
+			{
+				en: "Web Platform for monitoring orders of prescriptions and interacting with patient lists as needed.",
+				jp: "処方箋の注文を監視し、必要に応じて患者リストと対話するための Web プラットフォーム。",
+			},
+			ProjectHighlights:
+			{
+				en: [
+					"Helped mentor a junior developer while meeting own deadlines",
+					"Consulted on technology stack that was eventually used",
+					"Acted as senior developer, ensuring deadlines would be met by all."
+					],
+				jp: [
+					"自分の期限を守りながら、若手開発者の指導を支援しました",
+					"最終的に使用された技術スタックについてコンサルティングされました",
+					"上級開発者として行動し、全員が期限を守るように努める"
+					]
+			}
+		},
+		RelatedProjects: [19, 2, 4],
+	},
+	{
+		id: 21,
+		title:
+		{
+			en: 'Credit Union Software',
+			jp: '信用組合ソフトウェア'
+		},
+		category: 'Vizo Financial',
+		date:
+		{
+			en: 'January 2024 - Now',
+			jp: '2024年1月 - 現在'
+		},
+		tags: ['UI', 'Front-End', 'Back-End', 'Full-Stack'],
+		img: Project22Image2,
+		ProjectImages: [
+			{
+				id: 1,
+				title: 'Money',
+				img: Project22Image1,
+			},
+			{
+				id: 2,
+				title: 'Vizo Financial',
+				img: Project22Image2,
+			},
+			{
+				id: 3,
+				title: 'Ledger',
+				img: Project22Image3,
+			},
+		],
+		ProjectInfo: {
+			ClientName: 'Vizo Financial',
+			CompanyInfo: [
+				{
+					id: 1,
+					title: 'Client',
+					details: 'Vizo Financial',
+				},
+				{
+					id: 2,
+					title: 'Roles',
+					details: 'Senior Software Engineer',
+				}
+			],
+			Technologies: [
+				{
+					techs: [
+						".NET 8",
+						"C#",
+						"HangFire",
+						"Azure Key Vault",
+						"Docker",
+						"xUnit",
+						"Angular",
+						"SQL Server",
+						"T-SQL",
+						"Simple Injector",
+						"SQL",
+						"ASP.NET",
+						"Entity Framework",
+						"Javascript",
+						"jQuery",
+						"AJAX"
+					],
+				},
+			],
+			ProjectDetails:
+			{
+				en: "Web Application built for both credit unions and corporate use, to handle everything from cash orders to international wire transfers and everything in-between.",
+				jp: "信用組合と企業の両方で使用するために構築された Web アプリケーションで、現金注文から国際電信送金、およびその間のあらゆるものを処理します。",
+			},
+			ProjectHighlights:
+			{
+				en: [
+					"Helping rewrite existing legacy application into new technology stack",
+					"Adding containerized, automated, pipeline based, unit testing",
+					"Assist in writing migration tool from old application to new that included brand new branding information"
+					],
+				jp: [
+					"既存のレガシー アプリケーションを新しいテクノロジー スタックに書き換えるのを支援する",
+					"コンテナ化された自動化されたパイプラインベースの単体テストの追加",
+					"古いアプリケーションから新しいブランド情報を含む新しいアプリケーションへの移行ツールの作成を支援します。"
+					]
+			}
+		},
+		RelatedProjects: [0, 1, 3],
 	}
 ];

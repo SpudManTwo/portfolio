@@ -6,9 +6,9 @@ const AboutCounter = () => {
 	const { t } = useTranslation();
 
 	useCountUp({ ref: 'experienceCounter', end: Math.floor((Date.now() - (new Date("2018-08-01"))) / 31536000000), duration: 2 });
-	useCountUp({ ref: 'clients', end: 16, duration: 2 });
+	useCountUp({ ref: 'clients', end: 20, duration: 2 });
 	useCountUp({ ref: 'skillCounter', end: 130, duration: 2 });
-	useCountUp({ ref: 'solutionsCounter', end: 30, duration: 2 });
+	useCountUp({ ref: 'solutionsCounter', end: 35, duration: 2 });
 
 
 	return (
